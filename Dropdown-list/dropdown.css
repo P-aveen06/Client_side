@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  background-color: rgb(249, 231, 231);
+}
+.header {
+  background-color: gray;
+  width: 1024px;
+  height: 50px;
+  padding: 15px 20px 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+h1.logo {
+  color: rgba(254, 254, 254, 0.463);
+}
+nav {
+  width: 350px;
+  height: 42px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+nav .menu,
+.login,
+.home {
+  background-color: rgb(251, 250, 250);
+  width: 68px;
+  height: 24px;
+  font-size: 20px;
+  text-align: center;
+}
+div.home:hover a , div.menu:hover a.top ,div.login:hover a.top{
+    background-color: grey;
+    color: white;
+}
+.drop ,.drop_{
+  background-color: rgb(109, 154, 194);
+  display: none;
+  padding: 10px 10px 10px 10px;
+  width: 80px;
+  min-height: 30px;
+}
+a {
+  padding: 0px 14px 0px 13px;
+ 
+}
+.menu:hover .drop{
+  display: block;
+}
+.login:hover .drop_ {
+    display: block;
+}
+.drop div {
+  background-color: rgb(229, 219, 219);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 1px;
+  transition:width 700ms;
+}
+
+.drop .option1:hover,
+.drop .option2:hover,
+.drop .option3:hover,
+.drop .option4:hover,
+.drop .option5:hover {
+  background-color: rgb(193, 87, 87);
+  width: 80px;
+}
+.drop_ div{
+    background-color: aqua;
+    margin: 5px 0px 5px 0px;
+    text-align: right;
+    height: 22px;
+    width: 1px;
+    transition:width  700ms;
+}
+.drop_ .option1:hover,
+.drop_ .option2:hover {
+    background-color: rgb(104, 103, 103);
+    width:80px;
+}
